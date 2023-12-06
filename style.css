@@ -1011,17 +1011,17 @@
       justify-content: center;
       overflow: hidden;
       background-color: rgba(0, 0, 0, 0.799);
+      position: relative;
   }
 
   .lay-10{
     background-image: url(./imgs/bg/sec-7-bg.jpg);
     background-position: center;
     background-size: cover;
-
   }
 
   .sec-10-content{
-    position: relative;
+    
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
@@ -1063,20 +1063,26 @@
     transform: translateY(30px) scale(1.2);
     cursor: pointer;
    }
+   
+    .gallery-title{
+        position: absolute;
+        right: 55%;
+        top: 10%;
+    }
 
    .sec-10 p{
     color: #dddddd;
-    position: absolute;
+    /* position: absolute;
     right: 87%;
-   top: 1087%;
+   top: 1087%; */
    font-size: 20px;
    }
 
    .sec-10 h1{
     color: #cda45e;
-    position: absolute;
+    /* position: absolute;
     right: 53%;
-   top: 1092%;
+   top: 1092%; */
    font-size: 40px;
    }
 
