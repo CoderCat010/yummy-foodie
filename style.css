@@ -56,6 +56,7 @@
 .two:hover{
     color: #cda45e;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 .nav-h1{
@@ -65,6 +66,10 @@
     color: rgb(175, 175, 175);
     font-size: 21px;
     font-weight: 900;
+}
+
+.nav-h1:hover{
+    cursor: pointer;
 }
 
 .nav-h1 img{
@@ -83,6 +88,10 @@
     padding: 7px 15px;
     border-radius: 50px;
     font-weight: 600;
+}
+
+.last-item p:hover{
+    cursor: pointer;
 }
 
 .last-item ul{
@@ -119,6 +128,14 @@
     width: 450px;
 }
 
+.bnr h1:hover{
+    cursor: pointer;
+}
+
+.bnr p:hover{
+    cursor: pointer;
+}
+
 .bnr p{
     padding-top: 25px;
     width: 340px;
@@ -126,11 +143,19 @@
     color: rgb(148, 148, 148);
 }
 
+
 .bnr-btns{
     display: flex;
     gap: 30px;
     padding-top: 40px;
 } 
+
+.bnr-btn-1 button:hover{
+    cursor: pointer;
+}
+.bnr-btn-2 button:hover{
+    cursor: pointer;
+}
 
 .bnr-btn-1{
     padding: 2px 1px 2px 2px;
@@ -982,6 +1007,7 @@
     padding-top: 50px;
   }
 
+  
   .btn-9-1{
     display: flex;
     align-items: center;
